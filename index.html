@@ -12,7 +12,7 @@
 <body>
     <header class="container">
         <!-- navbar -->
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="" >
@@ -27,13 +27,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#bags">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -135,7 +135,7 @@
         </section>
         <!-- cateories send -->
         <!-- shoes start -->
-        <section class="container my-5">
+        <section class="container my-5" id="shoes">
             <h1>Shoes</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
                 <div class="col">
@@ -180,7 +180,7 @@
         </section>
         <!-- shoes end -->
         <!-- Backpack start -->
-        <section class="container my-5">
+        <section class="container my-5" id="bags">
             <h1>Backpack</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ">
                 <div class="col">
@@ -231,7 +231,7 @@
         </section>
         <!-- Backpack end -->
         <!-- subscribe start -->
-        <section style="height: 350px;" class="container bg-info rounded-3 d-flex justify-content-center align-items-center">
+        <section style="height: 350px;" class="container bg-info rounded-3 d-flex justify-content-center align-items-center" id="subscribe">
             <div>
                 <h2>LET'S STAY IN TOUCH</h2>
                 <p>Get updates on sales, specials and more</p>
@@ -239,7 +239,7 @@
                     <div class="mb-1">
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-warning">Submit</button>
                 </form>
             </div>
         </section>
